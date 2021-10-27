@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../images/image1.jpg);
+  background-size: cover;
+}
+form{
+  color:#fadf45;
+  margin:20px auto;
+  width: 500px;
+  height: 500px;
+  background: url(../images/image1.jpg);
+  background-size:cover;
+}
+.button{
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 100px;
+}

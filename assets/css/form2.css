@@ -1,0 +1,34 @@
+body{
+  color:chartreuse;
+  background-color: #000022;
+}
+.person{
+  background: url(../images/fresh.jpg);
+  background-size:contain;
+  width: 50%;
+  height: 500px;
+  padding: 20px;
+  /* border:solid 2px green; */
+  margin:0 auto;
+}
+input{
+  width: 100%;
+  height: 100%;
+}
+#btn{
+  color:fuchsia;
+  background: #000;
+  width: 50%;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+fieldset{
+  overflow: hidden;
+  padding: 0;
+  margin:30px;
+  background: url(../images/fresh.jpg);
+  background-size: cover;
+}
+textarea{
+  resize: none;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+@font-face {
+  src: url(../fonts/aliey/regular.otf);
+  font-family: "aliey reg";
+}
+@font-face{
+  src: url(../fonts/aliey/bold.otf);
+  font-family: "aliey bold";
+}
+@font-face{
+  src: url(../fonts/aliey/bold_italic.otf);
+  font-family: "aliey bold_italic";
+}
+@font-face {
+  src: url(../fonts/aliey/regular_italic.otf);
+  font-family: "aliey regular_italic"
+}
+body{
+    font-family: "aliey regular_italic" ,"Times New Roman" , cursive;
+    background: linear-gradient(to right ,#000022 , #000044 , #000022);
+}
+h1{
+  /* text-decoration: line-through; */
+  /* text-transform: capitalize; */
+
+  font-family:"aliey bold", Helvetica , serif;
+  color: white;
+  font-style: italic;
+  text-align: center ;
+}
+.content{
+  border: red 2px solid;
+  width: 300px;
+  height: 300px;
+  text-overflow: ellipsis;
+  text-indent: 40px;
+  color:#eeeeff;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}

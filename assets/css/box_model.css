@@ -1,0 +1,17 @@
+body{
+  background-color: #000022;
+  color : fuchsia;
+}
+.one{
+  height: 300px;
+  width: 300px;
+ background: url(../images/nice.jpg);
+ background-size: cover;
+ border: inset blue 5px;
+ border-radius: 20% 10% ;
+ margin: 170px 0 0 500px;
+ cursor:wait;
+}
+.one span{
+  margin-left: 100px;
+}

@@ -1,0 +1,13 @@
+body{
+  background:url(../images/fresh.jpg);
+  background-size: cover;
+  color: white;
+
+}
+h1{
+  text-align: center;
+}
+img{
+  width: 50%;
+  height: 500px;
+}

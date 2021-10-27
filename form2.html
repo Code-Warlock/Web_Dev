@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/form2.css" />
+    <title>Forms 2</title>
+  </head>
+  <body>
+    <!-- More on forms -->
+    <!-- Legends , Fieldset , Select , TextArea and Datalist.  -->
+    <form class="person" action="./idk.html" method="post">
+          <fieldset>
+            <legend>Username</legend>
+            <input type="text" name="username" list="names" id="username" value="" placeholder="Enter your username : " required="true" />
+            <datalist id="names">
+              <option value="Desmond">Desmond</option>
+              <option value="Michael">Michael</option>
+              <option value="Benedicta">Benedicta</option>
+              <option value="Rita">Rita</option>
+            </datalist>
+          </fieldset>
+          <fieldset>
+            <legend>Password</legend>
+
+            <input type="password" id="password" name="password" value="" placeholder="Enter your password : " required="true" />
+            <br>
+          </fieldset>
+          <fieldset>
+            <legend>Submit</legend>
+            <input type="submit" name="submit" id="btn" value="Submit Form" />
+          </fieldset>
+          <label for="story">Enter Motivation to be a BioChemist.</label> <br>
+          <textarea  cols="90" rows="10" name="name">
+          </textarea> <br>
+          <label for="students">Students &darr;</label> <br>
+          <select  id="students" name="students">
+            <option value="Lucas">Lucas</option>
+            <option value="Iris">Iris</option>
+            <option value="Samuel">Samuel</option>
+            <option value="Sixtus">Sixtus</option>
+          </select>
+
+    </form>
+  </body>
+</html>

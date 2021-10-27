@@ -1,0 +1,45 @@
+body{
+  background-image: linear-gradient(to right, #000022,#000044,#000066);
+}
+details{
+  color: chartreuse;
+}
+table{
+    background: url(../images/fresh.jpg) repeat-y fixed top left, url(../images/nice.jpg) repeat-y fixed top right;
+    width: 70%;
+    height: 300px;
+    color: gold;
+    text-align: center;
+    border-collapse: collapse;
+}
+caption{
+  color: chartreuse;
+  font-weight: bolder;
+  font-size: 16px;
+}
+thead{
+  color: chartreuse;
+}
+tbody{
+  color:fuchsia;
+}
+tbody tr:hover{
+  background: #111133;
+}
+tfoot{
+  background-image: url(../images/bla.jpg);
+  color: #bbbb55;
+}
+tbody tr a:link{
+  color: fuchsia;
+}
+tbody tr a:visited{
+  color: yellow;
+}
+tbody tr a:active{
+  color: green;
+}
+tbody tr a:hover{
+  color: maroon;
+  font-size: 1.2rem;
+}

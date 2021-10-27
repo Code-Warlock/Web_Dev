@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(../images/fresh.jpg) repeat-y fixed top left, url(../images/nice.jpg) repeat-y fixed top right;
+  color: chartreuse;
+}
+
+.form {
+  color: #ff33ff;
+}
+.form input[type=text] {
+  background: none;
+  color: fuchsia;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.form input[type=text]:not(:focus) {
+  background: none;
+}
+.form input[type=text]:focus {
+  border: inset fuchsia 1px;
+}
+.form input[type=button] {
+  display: block;
+  margin-top: 10px;
+  border: solid fuchsia 1px;
+  border-radius: 5px;
+  background: transparent;
+  color: fuchsia;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 1.1rem;
+  width: 20.17%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.form input[type=button]:hover {
+  background: fuchsia;
+  border: solid transparent 1px;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 450px 0 450px;
+}
+table caption {
+  font-family: "Italianno", cursive;
+  font-size: 30px;
+}
+table thead {
+  color: fuchsia;
+  font-family: "Montserrat", sans-serif;
+}
+table th {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 3900;
+}
+table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+table tbody tr td {
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 26px;
+  padding-left: 5px;
+}
+table tbody tr td button {
+  border: none;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  font-family: "Italianno", cursive;
+  font-size: 29px;
+  color: yellow;
+  font-weight: 900;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+table tbody tr td button:hover {
+  background: #000044;
+  cursor: pointer;
+}
+
+table tbody tr td:nth-child(1), table tbody tr td:nth-child(2) {
+  color: fuchsia;
+}
+
+table thead {
+  overflow-x: hidden;
+}
+
+table thead th {
+  font-size: 14px;
+}
