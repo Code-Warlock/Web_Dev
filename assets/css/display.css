@@ -27,5 +27,5 @@ input,label{
 }
 span{
   display: table-caption;
-  caption-side: bottom;
+  caption-side: top;
 }
