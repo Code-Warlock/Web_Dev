@@ -1,0 +1,41 @@
+/* =====================The POSE and the Flow */
+body{
+  background:linear-gradient(to right , #000022 , #000044 , #000022);
+  color:white;
+}
+
+.one, .two , .three{
+  border-radius: 5px;
+  background:#a5a5ec;
+  color:#000055;
+  height:180px;
+}
+
+.one p , .two p , .three p{
+  padding: 5px;
+}
+.three div{
+  width:30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color:blue;
+  margin: 5px;
+}
+
+/* .one{
+  margin-left: 50px;
+  position: relative;
+}
+
+.one p.test{
+  position: absolute;
+  top:40px;
+} */
+
+
+.three{
+  width:99%;
+  position: sticky;
+  top:30px;
+  z-index:10000;
+}
