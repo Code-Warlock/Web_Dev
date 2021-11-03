@@ -22,7 +22,7 @@ body{
   margin: 5px;
 }
 
-/* .one{
+.one{
   margin-left: 50px;
   position: relative;
 }
@@ -30,7 +30,7 @@ body{
 .one p.test{
   position: absolute;
   top:40px;
-} */
+}
 
 
 .three{
