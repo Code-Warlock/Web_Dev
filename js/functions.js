@@ -1,5 +1,6 @@
 // Creating a basic function in JavaScript
 
+// LEGB
 // function sayWelcome(name , status){
 //   let x = 90;
 //   if(status.toLowerCase().includes("begin")){
