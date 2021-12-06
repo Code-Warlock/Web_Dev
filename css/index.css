@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: #000034;
+  color: white;
+  height: 100px;
+}
+.navbar .navlist{
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+}
+.navbar .navlist .navitem{
+
+  display: inline-block;
+  margin: 30px 30px;
+}
+.content{
+  padding: 20px;
+}
+.content .content-1{
+  margin: 20px 10px;
+  padding: 20px 10px;
+  color: brown;
+}
+.content .content-2{
+  margin: 20px 10px;
+  padding: 20px 10px;
+  color: green;
+}
+.content .content-3{
+  margin: 20px 10px;
+  padding: 20px 10px;
+  color: red;
+}
