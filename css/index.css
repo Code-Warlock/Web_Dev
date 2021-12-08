@@ -35,3 +35,53 @@ body{
   padding: 20px 10px;
   color: red;
 }
+
+
+form{
+  color: white;
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+  padding: 10px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px blue;
+}
+input{
+  font-weight: 500;
+}
+input[type='submit']{
+  color: white;
+  width: 50%;
+  margin-top:30px;
+  padding:10px;
+  font-weight: 700;
+  border-radius: 5px;
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+  cursor: pointer;
+  background:linear-gradient(to right , #000034, blue 60%, darkblue , #000034);
+}
+.result{
+  color:red;
+  width: 50%;
+  margin:30px auto;
+}
+
+
+
+
+
+
+
+table{
+  padding: 10px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+}
+
+caption{
+  color: blue;
+  margin: 30px auto;
+}
