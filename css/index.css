@@ -75,8 +75,9 @@ input[type='submit']{
 
 
 table{
+  margin: 0 auto;
   padding: 10px;
-  width: 100%;
+  width: 70%;
   background-color: blue;
   color: white;
 }
@@ -84,4 +85,92 @@ table{
 caption{
   color: blue;
   margin: 30px auto;
+}
+section.content{
+  display: flex;
+}
+
+
+
+@media screen and (max-width:768px) {
+  section.content{
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+  font-size: 18px;
+}
+.hide{
+  display: none;
+  visibility: hidden;
+}
+.show{
+  display: block;
+  visibility: visible;
+}
+.small-text{
+  font-size: 14px;
+}
+
+.alert{
+  margin-top: 20px;
+  color: blue;
+  width: 100%;
+  text-align: center;
+  /* position: relative;
+  left: 50%;
+  transform: translateX(-50%;); */
+}
+
+
+/* a{
+  width: 20rem;
+  height: 5rem;
+  background-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+  border:solid 1px blue;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s;
+}
+a:hover{
+  background-color: blue;
+  color: white;
+
+} */
+.alert{
+  display: inline-block;
+  width: 70%;
+  margin-left: 220px;
+}
+a{
+  /* height: 30px; */
+  margin-left: -6px;
+  text-decoration: none;
+  font-size: 2.05rem;
+}
+.alert,a{
+  background-color: rgba(0 , 255 , 0 ,.6)
+}
+
+.big-text{
+  font-size: 2rem;
 }
